@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin: 12px;
+  margin-bottom: 32px;
+}
+
+.slot-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.i {
+  height: 150px;
+  width: 200px;
+  background: grey;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slot {
+  width: 200px;
+  text-align: center;
+  
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgba(0,0,0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background: white;
+  border: 1px solid rgba(255,255,255, 0.6);
+  border-radius: 8px;
+  width: 500px;
+  margin: 300px auto;
+}
+
+.mark-container {
+  width: 200px;
+}
+
+.mark {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background: rgba(78, 78, 191, 0.495);
+  color:blue;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.up {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.content {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.mark2 {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background: grey;
+  color: #ec1818;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btn {
+  padding: .5em 1em;
+  margin: 10px .2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.one {
+  border: none;
+  color: #fff;
+  background: blue;
+}
+
+.two {
+  border-color: #8d8686;
+  color: blue;
+  background: #fff;
+}

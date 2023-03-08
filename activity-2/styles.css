@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  background: #acb52c22;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav p, .logo {
+  background: white;
+}
+
+.nav p {
+  padding: .5em;
+  margin: .3em;
+  color: blue;
+}
+
+.logo {
+  padding: .5em .8em;
+  color: rgb(230, 150, 3);
+}
